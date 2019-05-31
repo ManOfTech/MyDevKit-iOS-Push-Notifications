@@ -1,0 +1,16 @@
+PODS:
+  - mydevkit (0.1.0)
+
+DEPENDENCIES:
+  - mydevkit (from `../`)
+
+EXTERNAL SOURCES:
+  mydevkit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mydevkit: 3c032d92c5f558773a6478162906b66718146ee0
+
+PODFILE CHECKSUM: e5845e704ba793f59ec2dac185d85bb84419edc4
+
+COCOAPODS: 1.7.1
