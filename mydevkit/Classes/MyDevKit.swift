@@ -2,7 +2,7 @@ import Alamofire
 
 
 class MyDevKit {
-    var hostname: String = "http://localhost:8081"
+    var hostname: String = "https://api.mydevkit.io"
     
     public func register(public_key: String, application_key: String, device_token: String, custom_parameters: [String: Any] = [:]) {
         let headers: HTTPHeaders = [
