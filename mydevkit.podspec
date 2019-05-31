@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mydevkit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.6'
   s.summary          = 'iOS Push Regristration for MyDevKit'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.swift_version = '~> 4'
+  s.swift_versions = '4'
   s.description      = <<-DESC
-iOS Push Regristration for MyDevKit
+iOS Push Regristration for MyDevKit built by the people who made MyDevKit
                        DESC
 
   s.homepage         = 'https://github.com/ManOfTech/ios_mydevkit.git'
